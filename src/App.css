@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Mono:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	background-color: #faf9f6;
+	min-width: 100vw;
+	min-height: 100vh;
+}
+body * {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Montserrat', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+	cursor: pointer !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header ul li {
+	position: relative;
+}
+header ul li.active {
+	opacity: 1;
+}
+header ul li::before {
+	content: '';
+	height: calc(100% - 10px);
+	width: 3px;
+	background-color: rgba(17, 24, 39, 0.2);
+	position: absolute;
+	left: -20px;
+	top: 5px;
+}
+header ul li:first-child::before {
+	width: 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* .hero-title{
+	letter-spacing: 50px;
+	font-family: "Noto Sans Mono", monospace;
+	line-height: normal;
 }
-
-.App-link {
-  color: #61dafb;
+.hero-title span{
+	font-family: "Noto Sans Mono", monospace;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.text-stroke {
+	-webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-fill-color: #faf9f6;
+	color: #faf9f6;
+} */
