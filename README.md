@@ -8,7 +8,7 @@
 - LinkedIn: [linkedin.com/in/leogarciag](https://www.linkedin.com/in/leogarciag/)
 - Email: leogjl66@gmail.com
 - Phone: +52 (618) 364 1448
-- GitHub: [github.com/leogarciag](https://github.com/leogarciag)
+- GitHub: [github.com/leoggarcia](https://github.com/leoggarcia)
 
 ## Getting Started with Create React App
 
