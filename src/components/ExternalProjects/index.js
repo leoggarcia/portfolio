@@ -24,7 +24,7 @@ const projects = [
 
 function ExternalProjects() {
 	return (
-		<section className="p-8 w-screen m-auto mt-[50px] text-portfolio-black max-w-[1300px]">
+		<section id="projects" className="p-8 w-screen m-auto mt-[50px] text-portfolio-black max-w-[1300px]">
 			<h2 className="text-4xl md:text-5xl font-bold mb-6">External projects</h2>
 			<div className="flex flex-col gap-[54px]">
 				{projects.map((project, index) => (

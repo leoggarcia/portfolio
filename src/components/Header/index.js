@@ -5,10 +5,10 @@ export default function Header() {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 	const menuItems = [
-		{ label: 'About Leo García', href: '#', isActive: true },
-		{ label: 'Education', href: '#' },
-		{ label: 'Experience', href: '#' },
-		{ label: 'External projects', href: '#' },
+		{ label: 'About Leo García', href: '#about', isActive: true },
+		{ label: 'Education', href: '#education', isActive: true},
+		{ label: 'Experience', href: '#experience', isActive: true},
+		{ label: 'External projects', href: '#projects', isActive: true},
 	];
 
 	return (

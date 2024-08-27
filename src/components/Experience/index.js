@@ -48,7 +48,7 @@ const experiences = [
 
 function Experience() {
 	return (
-		<section className="p-8 w-screen m-auto text-portfolio-black max-w-[1300px]">
+		<section id="experience" className="p-8 w-screen m-auto text-portfolio-black max-w-[1300px]">
 			<h2 className="text-4xl md:text-5xl font-bold mb-6">Experience</h2>
 			<div className="flex flex-col gap-[54px]">
 				{experiences.map((exp, index) => (

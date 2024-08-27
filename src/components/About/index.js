@@ -2,7 +2,7 @@ import me_ilustration from '../../assets/me_ilustration.svg';
 
 function About() {
 	return (
-		<section className="flex flex-col md:flex-row items-center justify-center p-8 w-screen m-auto text-portfolio-black max-w-[1300px]">
+		<section id='about' className="flex flex-col md:flex-row items-center justify-center p-8 w-screen m-auto text-portfolio-black max-w-[1300px]">
 			<div className="md:w-1/3 flex justify-center md:justify-start">
 				<img
 					src={me_ilustration}
