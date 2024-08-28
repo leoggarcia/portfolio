@@ -4,10 +4,18 @@ import phone_icon from '../../assets/phone_icon.svg';
 import envelop_icon from '../../assets/envelop_icon.svg';
 
 const socialMedia = [
-	{ icon: github_icon, alt: 'GitHub' },
-	{ icon: linkedin_icon, alt: 'LinkedIn' },
-	{ icon: phone_icon, alt: 'Phone' },
-	{ icon: envelop_icon, alt: 'Email' },
+	{ icon: github_icon, alt: 'GitHub', url: 'https://github.com/leoggarcia' },
+	{
+		icon: linkedin_icon,
+		alt: 'LinkedIn',
+		url: 'https://www.linkedin.com/in/leogarciag/',
+	},
+	{
+		icon: phone_icon,
+		alt: 'Phone',
+		url: 'tel:+52(618)3641448',
+	},
+	{ icon: envelop_icon, alt: 'Email', url: 'mailto:leogjl66@gmail.com' },
 ];
 
 export default function Hero() {
@@ -29,7 +37,9 @@ export default function Hero() {
 			</span>
 			<div className="flex justify-center space-x-4 sm:space-x-6 mt-6 sm:mt-12">
 				{socialMedia.map((item, index) => (
-					<div
+					<a
+						href={item.url}
+						target="_blank"
 						key={index}
 						className="flex justify-center items-center w-8 sm:w-10 cursor-pointer bg-portfolio-black p-1.5 sm:p-2 rounded-full hover:bg-portfolio-black/80 transition-colors duration-300"
 					>
@@ -40,7 +50,7 @@ export default function Hero() {
 							width={40}
 							height={40}
 						/>
-					</div>
+					</a>
 				))}
 			</div>
 		</section>

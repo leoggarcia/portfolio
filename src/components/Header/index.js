@@ -6,9 +6,9 @@ export default function Header() {
 
 	const menuItems = [
 		{ label: 'About Leo García', href: '#about', isActive: true },
-		{ label: 'Education', href: '#education', isActive: true},
-		{ label: 'Experience', href: '#experience', isActive: true},
-		{ label: 'External projects', href: '#projects', isActive: true},
+		{ label: 'Education', href: '#education', isActive: true },
+		{ label: 'Experience', href: '#experience', isActive: true },
+		{ label: 'External projects', href: '#projects', isActive: true },
 	];
 
 	return (
@@ -77,7 +77,7 @@ export default function Header() {
 			</nav>
 
 			<a
-				href="#contact"
+				href="mailto:leogjl66@gmail.com"
 				className="hidden md:inline-block font-bold uppercase text-portfolio-green underline"
 			>
 				Contact
