@@ -2,18 +2,21 @@ import itd from '../../assets/itd.png';
 
 function Education() {
 	return (
-		<section id="education" className="flex flex-col md:flex-row items-center justify-center p-8 w-screen m-auto text-portfolio-black max-w-[1300px]">
+		<section
+			id="education"
+			className="flex flex-col md:flex-row items-center justify-center p-8 w-screen m-auto text-portfolio-black max-w-[1300px]"
+		>
 			<div className="md:w-1/2">
 				<h2 className="text-4xl md:text-5xl font-bold">Education</h2>
 				<p className="flex items-center mt-2 text-lg sm:text-xl md:text-3xl">
-					Durango Technological Institute{' '}
+					Instituto Tecnológico de Durango{' '}
 					<svg
 						width="34"
 						height="17"
 						viewBox="0 0 34 17"
 						fill="none"
 						xmlns="http://www.w3.org/2000/svg"
-						className='ml-2 cursor-pointer'
+						className="ml-2 cursor-pointer"
 					>
 						<g clip-path="url(#clip0_105_197)">
 							<path

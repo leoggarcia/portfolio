@@ -2,6 +2,21 @@ import ExperienceItem from "./ExperienceItem";
 
 const experiences = [
 	{
+		company: 'Happy inc',
+		role: 'Sr Developer',
+		period: 'May 2024 - Oct 2024',
+		responsibilities: [
+			'I have been developing a web application to manage web chats and a commutator system, showcasing my proficiency in frontend technologies.',
+			'I have been developing a React web application focused on managing the content of various company websites, showcasing my proficiency in frontend technologies.',
+		],
+		technologies: [
+			"JavaScript",
+			'React',
+			'Zustand',
+			'Bitbucket',
+		],
+	},
+	{
 		company: 'Advante Digital',
 		role: 'Full Stack Developer',
 		period: 'July 2022 - May 2024',
@@ -20,6 +35,7 @@ const experiences = [
 			'Firebase',
 			'Redux',
 			'MUI',
+			'GitLab',
 		],
 	},
 	{
@@ -32,7 +48,7 @@ const experiences = [
 			'Providing various functionalities to websites by creating plugins for WordPress.',
 			'Creation of themes to adapt custom website designs to WordPress.',
 		],
-		technologies: ['PHP', 'WordPress', 'Figma design'],
+		technologies: ['PHP', 'WordPress', 'Figma design', 'GitHub'],
 	},
 	{
 		company: 'Durango Youth Institute',
@@ -42,7 +58,7 @@ const experiences = [
 			'Design and development of web e-commerce, websites.',
 			'Free website creation for entrepreneurs to aid in the digitalization of businesses in my hometown.',
 		],
-		technologies: ['PHP', 'WordPress', 'Figma design'],
+		technologies: ['PHP', 'WordPress', 'Figma design', 'GitHub'],
 	},
 ];
 
